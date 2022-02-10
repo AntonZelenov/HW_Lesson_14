@@ -1,0 +1,73 @@
+.main {
+  margin-bottom: 69px;
+}
+
+.services {
+  &__our-services {
+    line-height: 21px;
+    color: #7690a8;
+    padding-top: 55px;
+    margin-bottom: 17px;
+  }
+
+  &__title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 35px;
+  }
+
+  &__holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__frame {
+    max-width: 360px;
+    width: 100%;
+    border: 1px solid #e5eaf4;
+    border-radius: 8px;
+    padding-top: 41px;
+    padding-left: 41px;
+    padding-bottom: 46px;
+
+    &-logo-container {
+      position: relative;
+      width: 64px;
+      height: 64px;
+      border: 1px solid rgba(21, 101, 216, 0.1);
+      border-radius: 16px;
+      margin-bottom: 28px;
+    }
+    &-logo-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+
+      &:hover {
+        .path-color {
+          fill: #c252aa;
+        }
+      }
+    }
+    &-title {
+      font-size: 24px;
+      line-height: 21px;
+      letter-spacing: 0.2px;
+      margin-bottom: 14px;
+    }
+    &-text {
+      max-width: 274px;
+      width: 100%;
+      margin-bottom: 29px;
+    }
+    &-link {
+      text-decoration: none;
+      color: #16133d;
+    }
+  }
+}

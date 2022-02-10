@@ -1,0 +1,23 @@
+.header {
+  padding-top: 38px;
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #efeef3;
+
+  &__image {
+    margin-right: 14px;
+    fill: white;
+  }
+
+  &__text {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+  }
+}

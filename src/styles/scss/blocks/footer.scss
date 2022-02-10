@@ -1,0 +1,62 @@
+.footer {
+  //   max-height: 194px;
+  //   height: 100%;
+  background-color: #16133d;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 45px;
+
+  padding-top: 40px;
+
+  &__image {
+    margin-right: 14px;
+    fill: white;
+  }
+
+  &__text {
+    color: #f2f2f2;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+.footer-sprite {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__icon {
+    background-image: url(/src/images/css_sprites.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 38px;
+    height: 38px;
+
+    &_instagram {
+      background-position: -20px -20px;
+    }
+
+    &_facebook {
+      background-position: 10px 10px;
+    }
+
+    &_git {
+      background-position: 10px 10px;
+    }
+
+    &_dribble {
+      background-position: 10px 10px;
+    }
+
+    &_twitter {
+      background-position: 10px 10px;
+    }
+  }
+}
